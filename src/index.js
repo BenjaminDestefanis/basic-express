@@ -7,29 +7,12 @@
 //Modulos clasicos
 const express = require('express')
 const app = express()
+const router = require('./routes/employes')
 
 const PORT = 3000
 
 app.listen(PORT, console.log(`Listen on port ... ${PORT}`))
 
+//app.use para utilizar las rutas que importamos desde el archivo employes
+app.use(router)
 
-//ENDPOINTS
-
-app.get('/employes', (req, res) => {
-    res.send('Obteniendo empleados')
-})
-
-
-app.post('/employes', (req, res) => {
-    res.send('Creando empleados')
-})
-
-
-app.put('/employes', (req, res) => {
-    res.send('Actualizando empleados')
-})
-
-
-app.delete('/employes', (req, res) => {
-    res.send('Eliminando empleados')
-})

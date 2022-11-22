@@ -31,3 +31,6 @@ necesitamos utilizar una extencion como thunder Client
 o POSTMAN o alguna similar.
 
 4. Coneccion con la Base de Datos.
+5. mySQL se puede utilzar de muchas maneras (Docker - AWS etc)
+
+6. Division de las rutas del servidor
