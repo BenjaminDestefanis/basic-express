@@ -28,4 +28,6 @@ Dependecias -> express nodemon
 3. Corroborar el funcionamiento de los ENDPOINTS
 acordarse que para los metodos POST / PUT / DELETE
 necesitamos utilizar una extencion como thunder Client
-o POSTMAN o alguna similar
+o POSTMAN o alguna similar.
+
+4. Coneccion con la Base de Datos.
