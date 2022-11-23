@@ -28,6 +28,7 @@ const Project = sequelize.define('project', {
 })
 
 
+
 /*  Project.hasMany(Task, {
     foreignKey: 'projectId',
     sourceKey: 'id'

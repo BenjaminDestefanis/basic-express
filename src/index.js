@@ -23,7 +23,7 @@ const main = async () => {
 
     try{
         //Similar a sequelize.authenticate()
-        await sequelize.sync( {forse: false} );
+        await sequelize.authenticate();
         console.log('Connection con base de datos exitosa')
         app.listen(PORT, console.log(`Listen on port ... ${PORT}`))
     } catch(error){

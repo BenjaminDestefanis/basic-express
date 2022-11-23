@@ -1,19 +1,17 @@
 const { Router } = require('express')
 const router = Router()
-const { getProjects } = require('../controllers/projects.controllers')
+const { getProjects, createProjects } = require('../controllers/projects.controllers')
 
 //ENDPOINTS
 
 
 router.get('/projects', getProjects)
 
+router.post('/projects', createProjects)
+
+
 router.get('/projects/:id', (req, res) => {
 
-})
-
-
-router.post('/projects', (req, res) => {
-    res.send('Creando empleados')
 })
 
 
