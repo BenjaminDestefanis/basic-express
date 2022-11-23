@@ -9,14 +9,14 @@ const createProjects = async (req, res) => {
     /* console.log(name, priority, description)
     console.log(req.body) */
 
-    /*  const newProject = await Project.create({
+      /* const newProject = await Project.create({
         name,
         description,
         priority
     })
      console.log(newProject)  
 
-     console.log(Project.body) */
+     console.log(Project.body)  */
     res.send('creating projects')
 }
 

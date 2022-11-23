@@ -27,6 +27,12 @@ const Project = sequelize.define('project', {
     timestamps: false
 })
 
+Project.sync()
+    .then(() => {
+        console.log('Tabla Sincronizada')
+    })
+    .catch( err => console.log(err))
+
 
 
 /*  Project.hasMany(Task, {
